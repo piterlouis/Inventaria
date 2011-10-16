@@ -1,0 +1,235 @@
+
+#container {
+    width:720px;
+    margin:10px auto 10px auto;
+}
+
+.login-form {
+    border:1px solid grey;
+    width:400px;
+    text-align:right;
+    padding:20px;
+    margin:50px auto 0px auto;
+}
+
+h1 {
+    font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; 
+    font-size: 1.1em;
+}
+
+h2 {
+    font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; 
+    font-size: 0.9em;
+    color:#888888;
+}
+
+#login-content {
+  margin-top:100px;
+}
+
+#login-toolbar {
+    margin-top:10px;
+}
+
+#newpasswd {
+    margin-bottom:10px;
+}
+
+.fixed-width {
+    display:block;
+    float:left;
+    width: 100px;
+}
+
+#status-msg, #dialog-msg {
+    font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; 
+    font-size: 0.9em;
+    text-align:center;
+    margin-bottom: 20px;
+    padding:10px;
+    display:block;
+    height:20px;
+}
+
+.top-toolbar {
+    border:none;
+    text-align:right;
+    width:100%;
+    margin-bottom:20px;
+}
+
+#dpto-title {
+    font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; 
+    font-size: 1.5em;
+    width:auto;
+    border:none;
+    text-align:left;
+    float:left;
+}
+
+.materials-table {
+    font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; 
+    font-size: 1.1em;
+    width:100%;
+    padding:0px;
+    margin:0px;
+    border-spacing:0px;
+    border:none;
+}
+
+.materials-table-plain {
+    font-family: serif; 
+    font-size: 1.0em;
+    width:100%;
+    padding:0px;
+    margin:0px;
+    border-spacing:0px;
+    border:1px solid black;
+}
+
+.materials-table-plain td, .materials-table-plain th  {
+    border:none;
+    border-bottom:1px solid black;
+    padding-right: 20px;
+}
+
+.materials-table-plain th {
+    text-align:left;
+}
+
+.materials-table td {
+    border:none;
+}
+
+.cell-max-plain {
+    width:100%;
+}
+
+.cell-date {
+    font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; 
+    font-size: 0.6em;
+    font-weight: bold;
+    color:#909090;
+    padding:5px 10px 5px 5px;
+    vertical-align:top;
+}
+
+.cell-material {
+    width:100%;
+}
+
+.cell-icons {
+    padding:5px 5px 5px 10px;
+    vertical-align:top;
+}
+
+.cell-info {
+    padding:5px 0px 5px 10px
+}
+
+.row, .row-detailed {
+    vertical-align:top;
+}
+
+.row-detailed .cell-material {
+    cursor:pointer;
+}
+
+.row-1 {
+    background-color: #e0e0e0;
+}
+
+.row-2 {
+}
+
+.detail {
+    display:none;
+    padding:5px 10px 20px 30px;
+    font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; 
+    font-size: 0.7em;
+    font-weight: bold;
+    color:#707070;
+    text-align:justify;
+    
+}
+
+.row-deleted {
+    color:#ff0000;
+}
+
+.row-deleted .detail {
+    color:#ff5050;
+}
+
+.date-deleted {
+    color:#ff5050;
+}
+
+textarea {
+    resize:none;
+}
+
+#dialog-material input, #dialog-material textarea {
+    font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; 
+    font-size: 0.8em;
+    color:#707070;
+    width:100%;
+}
+
+.list-toolbar {
+    padding:5px 0px 20px 0px;
+}
+
+#ltype, #orden {
+    display:inline;
+    margin-right:10px;
+}
+
+#btnOptions {
+    display:inline;
+    float:right;
+}
+
+#ltype label, #orden label, #btnReload, #addMaterial {
+    font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; 
+    font-size: 0.9em;
+}
+
+#dialog-del-msg {
+    padding-left:30px;
+    font-weight:bold;
+    color:#ff5050;
+}
+
+.icon-wait {
+    border:none;
+    margin:auto 20px auto 20px;
+}
+
+.mini-icon {
+    display:inline;
+    float:right;
+    cursor:pointer;
+    border:none;
+    margin:0px;
+}
+
+.no-materials {
+    width:100%;
+    text-align:center;
+}
+
+.header {
+    font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; 
+    font-size: 0.9em;
+    border:none;
+    color:#2c82fc;
+}
+
+hr {
+    margin:2px 0px 0px 0px;
+    color:#3cb0fc;
+    height:1px;
+    border: none 0; 
+	  border-top: 1px dashed #3cb0fc;
+}

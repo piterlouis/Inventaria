@@ -1,0 +1,10 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteCond $1 !^(index\.php|favicon.ico|robots\.txt)
+RewriteCond %{REQUEST_URI} !\.css$
+RewriteCond %{REQUEST_URI} !\.js$
+RewriteCond %{REQUEST_URI} !\.png$
+RewriteCond %{REQUEST_URI} !\.jpg$
+RewriteCond %{REQUEST_URI} !\.gif$
+RewriteCond %{REQUEST_URI} !install.php$
+RewriteRule ^(.*)$ index.php?/$1 [L]
